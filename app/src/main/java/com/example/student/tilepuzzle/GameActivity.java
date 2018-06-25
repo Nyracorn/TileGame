@@ -45,22 +45,7 @@ public class GameActivity extends AppCompatActivity {
         buttons[2][2] = findViewById(R.id.button_c3);
 
         setValue();
-
-        /*
-        buttons[0][0].setText("1");
-        buttons[0][1].setText("2");
-        buttons[0][2].setText("3");
-
-        buttons[1][0].setText("4");
-        buttons[1][1].setText("5");
-        buttons[1][2].setText("6");
-
-        buttons[2][0].setText("7");
-        buttons[2][1].setText("");
-        buttons[2][2].setText("8");
-        */
-
-
+        
         //row a listeners
         buttons[0][0].setOnClickListener(new View.OnClickListener() {
             @Override
